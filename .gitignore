@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function reverseArray (a) {
+	var n = [];
+	for (var i=a.length-1; i>=0; i--) {
+		n.push(a[i]);
+	}
+	return n;
+}
+
+function reverseArrayInPlace(a) {
+	var n = [];
+	for (var i=array.length-1; i>=0; i--) {
+		n.push(a[i]);
+	}
+	a = n;
+	return a;
+}
+
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function pick(obj, keys)
+    {
+        var a = {};
+
+        for(var key in obj)
+            if(keys.indexOf(key) !== -1)
+                a[key] = obj[key];
+	return a;
+}
+</script>
+</body>
+</html>
